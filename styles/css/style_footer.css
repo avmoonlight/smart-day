@@ -1,0 +1,28 @@
+/* ===== RODAPÉ ===== */
+.site-footer {
+  background: var(--bg-footer, #111);
+  color: #fff;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 50px;
+}
+
+.site-footer img {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.site-footer i {
+  margin: 0 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.site-footer i:hover {
+  color: var(--accent-color, #007bff);
+}
+
+.site-footer p {
+  margin: 5px 0;
+}

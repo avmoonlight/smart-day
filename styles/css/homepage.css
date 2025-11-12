@@ -1,0 +1,51 @@
+/* ===== HOMEPAGE ===== */
+
+.hero-parallax {
+  background-image: url("../img/9e47fefa5a687335cf906882cecfe779.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+}
+
+.parallax-title span {
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.section-conteudo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  gap: 30px;
+}
+
+.conteudo-texto {
+  max-width: 500px;
+  text-align: left;
+}
+
+.conteudo-texto h2 {
+  font-size: 2em;
+  color: var(--accent-color);
+}
+
+.conteudo-texto p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.conteudo-imagem img {
+  width: 180px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,34 @@
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+:root {
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --accent-color: #007bff;
+  --bg-nav: #fff;
+  --bg-footer: #111;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding-top: 70px; /* espaço pra navbar fixa */
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #eee;
+  --bg-nav: #1e1e1e;
+  --bg-footer: #000;
+}
+
+/* ===== CONTEÚDO ===== */
+.page-content {
+  padding: 20px;
+  text-align: center;
+}
+
+button, a {
+  cursor: pointer;
+}

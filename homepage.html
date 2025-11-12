@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Smart Day - Homepage</title>
+
+  <link rel="stylesheet" href="assets/css/nav.css">
+  <link rel="stylesheet" href="assets/css/style_footer.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <link rel="icon" href="assets/img/logo.png">
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav class="main-nav">
+    <div class="nav-container">
+      <div class="nav-left">
+        <div class="nav-toggle" id="navToggle">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li class="nav-item">
+            <button class="nav-theme-toggle" id="themeToggle" title="Modo Escuro">
+              <i class="bi bi-moon-fill theme-icon"></i>
+            </button>
+          </li>
+          <li class="nav-item"><a href="/todo" class="nav-link"><i class="bi bi-check-square"></i> TO-DO</a></li>
+          <li class="nav-item"><a href="/minha-casa" class="nav-link"><i class="bi bi-house-door"></i> MINHA CASA</a></li>
+          <li class="nav-item"><a href="/lista-compras" class="nav-link"><i class="bi bi-bag"></i> Lista de Compras</a></li>
+          <li class="nav-item"><a href="/financas" class="nav-link"><i class="bi bi-piggy-bank"></i> Minhas Finanças</a></li>
+          <li class="nav-item"><a href="/perfil" class="nav-link"><i class="bi bi-person-circle"></i> Meu Perfil</a></li>
+          <li class="nav-item"><a href="/configuracoes" class="nav-link"><i class="bi bi-gear-wide"></i> Configurações</a></li>
+          <li class="nav-item"><a href="/logout" class="nav-link"><i class="bi bi-box-arrow-right"></i> Sair</a></li>
+        </ul>
+      </div>
+      <div class="nav-logo">
+        <a href="/">
+          <img src="assets/img/logo.png" alt="Smart Day" class="nav-logo-img">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTEÚDO -->
+  <main class="page-content">
+    <section class="hero-parallax no-padding-section">
+      <div class="parallax-title"><span>SMART DAY</span></div>
+    </section>
+
+    <div class="section-conteudo">
+      <div class="conteudo-texto">
+        <h2>Bem-vindo ao Smart Day</h2>
+        <p class="homepage-description">
+          Bem-vindo ao Smart Day! Sua plataforma inteligente para organizar e otimizar o seu dia a dia.
+          Conecte-se com sua família, gerencie tarefas e transforme sua rotina em momentos especiais.
+        </p>
+      </div>
+
+      <div class="conteudo-imagem">
+        <img src="assets/img/logo.png" alt="Smart Day Logo" class="logo-smartday">
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <img src="assets/img/logo.png" alt="Logo" class="nav-logo-img">
+    <p>Organize suas tarefas de forma simples</p>
+    <p>
+      <i class="bi bi-google"></i>
+      <i class="bi bi-whatsapp"></i>
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-instagram"></i>
+    </p>
+    <p>© Todos os direitos reservados - 2025</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.js"></script>
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/darkmode.js"></script>
+</body>
+</html>
